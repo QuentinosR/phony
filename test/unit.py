@@ -1,5 +1,5 @@
 import os
-import gobject
+from gi.repository import GObject as gobject
 import phony.base.ipc
 
 from phony.base import log
